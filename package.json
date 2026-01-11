@@ -22,9 +22,10 @@
   "devDependencies": {
     "@antfu/eslint-config": "^6.7.3",
     "eslint-plugin-format": "^1.2.0",
-    "husky": "^9.1.7"
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7"
   },
   "lint-staged": {
-    "*": "bun run lint"
+    "*": "bun lint"
   }
 }
